@@ -20,7 +20,7 @@ class Form(StatesGroup):
 
 @dp.message_handler(commands=["start"])
 async def start(message: types.Message):
-    await message.answer('hello')
+    await message.answer('привет')
 
 
 
